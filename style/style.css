@@ -145,13 +145,34 @@
     border: none;
     color: white
   }
+  /* Challenging part */
 
   .challenge{
+    margin-top: 32px;
     padding: 48px 24px;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.7);
     background-color: white;
     background-image:url("../assets/quote-bg.png");
     background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position:25px 35px;
+    
     
   }
+
+  .challenge h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom:5px;
+  }
+  .challenge-discription{
+    color: rgba(14, 14, 14, 0.8);
+  }
+  .challenge .sub-title{
+    margin: 0px;
+    color: rgba(14, 14, 14, 0.6);
+  }
+
+  /* Recent news */
