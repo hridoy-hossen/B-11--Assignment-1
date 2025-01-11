@@ -1,0 +1,157 @@
+.fira-sans-font {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+  }
+  body{
+    margin: auto 160px;
+    background-color: #effaf7;
+  }
+
+  /* sheard style */
+  .green{
+    color: #006A50;
+  }
+  .green-bg{
+    background-color: #006A50;
+  }
+  .card-green{
+    background-color: rgb(198, 228, 214);
+  }
+  .main-bg{
+    background-color: #C6E4D6;
+  }
+  .sky-blue-bg{
+    background-color: #a7c7ff;
+  }
+  .yellow-bg{
+    background-color: #FFC239;
+  }
+  .sky-blue{
+    background-color: #5490F5;
+  }
+  .lite-yellow-bg {
+    background-color: rgb(247, 235, 207) ;
+  }
+
+  /* sheard style */
+  nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    align-items: center;
+  }
+
+  .sign-btn > button{
+    padding: 15px 30px;
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  /* Banner Styling */
+  .banner{
+    padding: 80px 80px;
+    border-radius: 24px;
+  }
+  .banner{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .banner-info > h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+    margin: 0;
+  }
+
+  .banner-info > h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0%;
+  }
+  .banner-btn{
+    margin-top: 24px;
+  }
+  .banner-btn > button{
+    padding: 17px 34px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+  }
+
+  /* Style Pillars of BD */
+  .pillar-holder{
+    display: flex;
+    gap: 24px;
+  }
+  .pillar-holder .pillar{
+    box-sizing: border-box;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: white;
+  }
+  .pillar-holder .pillar h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .pillar-holder .pillar p{
+    color: rgba(14, 14, 14, 0.7);
+  }
+
+  /* Styling the vision of future */
+  .vision-of-future{
+    margin-top: 80px;
+  }
+  .vision-of-future h1{
+    margin:0px 0px 24px 0px;
+    font-size: 40px;
+  }
+  .vision-of-future p{
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+  }
+  .vision-holder{
+    display: flex;
+    gap: 24px;
+    
+  }
+  .vision-holder .vision{
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: none;
+   
+  }
+
+  .vision-holder .vision h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .vision-holder .vision p{
+    color: rgba(14, 14, 14, 0.7);
+  }
+
+  .vision-holder .vision .vision-btn button{
+    padding: 11px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    color: white
+  }
+
+  .challenge{
+    padding: 48px 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.7);
+    background-color: white;
+    background-image:url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    
+  }
