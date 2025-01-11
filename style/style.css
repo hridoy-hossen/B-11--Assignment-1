@@ -90,6 +90,12 @@
     display: flex;
     gap: 24px;
   }
+  .pillar-info{
+    margin-top: 80px;
+  }
+  .pillar-info h2{
+    font-size: 40px;
+  }
   .pillar-holder .pillar{
     box-sizing: border-box;
     padding: 24px;
@@ -109,7 +115,7 @@
   .vision-of-future{
     margin-top: 80px;
   }
-  .vision-of-future h1{
+  .vision-of-future h2{
     margin:0px 0px 24px 0px;
     font-size: 40px;
   }
@@ -176,3 +182,14 @@
   }
 
   /* Recent news */
+  .recent-news .news-title{
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+  .recent-news .news-dis{
+    color: rgba(14, 14, 14, 0.7);
+  }
+  .card{
+    display: flex;
+    gap: 32px;
+  }
