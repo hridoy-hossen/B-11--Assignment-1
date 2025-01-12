@@ -460,3 +460,24 @@
   .promise{
     color:rgba(14, 14, 14, 0.7);
   }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    background-color: white;
+  }
+  footer> h2{
+    margin-bottom: 32px;
+  }
+  footer hr{
+    width: 1000px;
+    color: rgba(183, 179, 179 , 0.3);
+  }
+  .footer-img img{
+    width: 24px;
+    height: 2opx;
+    margin: 5px;
+    
+  }
