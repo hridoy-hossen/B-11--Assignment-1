@@ -11,6 +11,7 @@
   .green{
     color: #006A50;
   }
+
   .green-bg{
     background-color: #006A50;
   }
@@ -48,6 +49,7 @@
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
+    background-color: white;
   }
   /* Banner Styling */
   .banner{
@@ -192,4 +194,103 @@
   .card{
     display: flex;
     gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    background-color: white;
   }
+  .card-img img{
+    border-radius: 24px;
+  }
+  .card-info h2{
+    font-size: 32px;
+    margin: 0px 0px 10px 0px;
+  }
+  .card-info .date{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 10px auto;
+  }
+  .date> p{
+    margin: 0px;
+  }
+  .card-discription{
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 35px;
+  }
+  .card-info .card-btn button{
+    padding: 13px 26px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    color: white
+  }
+
+  #card-2{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row-reverse;
+  
+  }
+  #card-3{
+    margin-top: 24px;
+  }
+
+  /* Donation Box */
+  .donate{
+    text-align: center;
+    margin: 80px 0px;
+  }
+  .donate .donation-title{
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+  .donate .donation-dis{
+    color:  rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+  }
+
+  .donate-amounte{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  .amounte >p{
+    padding:40px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    background-color: white;
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+  }
+  #amounte-2{
+    background-color: #C6E4D6;
+  }
+  .input-holder{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+  }
+  .amount-input input{
+    width: 85%;
+    height: 64px;
+    border: none;
+  }
+  .amount-input input::placeholder{
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 20px;
+  }
+  .donate-btn button{
+    padding: 17px 32px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    color: white
+  }
+
+  /* NewsLetter */
+  
