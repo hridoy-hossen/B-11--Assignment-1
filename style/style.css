@@ -2,8 +2,13 @@
     font-family: "Fira Sans", serif;
     font-style: normal;
   }
-  body{
+  header{
     margin: auto 160px;
+  }
+  main{
+    margin: auto 160px;
+  }
+  body{
     background-color: #effaf7;
   }
 
@@ -33,6 +38,12 @@
   .lite-yellow-bg {
     background-color: rgb(247, 235, 207) ;
   }
+  .hover:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #006A50;
+    border: 1px solid #006A50;
+  }
 
   /* sheard style */
   nav{
@@ -51,6 +62,15 @@
     font-weight: 600;
     background-color: white;
   }
+
+  .sign-btn > button:hover{
+    cursor: pointer;
+    color: white;
+    border: black;
+    background-color: #006A50;
+    border: 1px solid #006A50;
+  }
+
   /* Banner Styling */
   .banner{
     padding: 80px 80px;
@@ -153,6 +173,12 @@
     border: none;
     color: white
   }
+  .vision-holder .vision .vision-btn button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: 1px solid ;
+  }
   /* Challenging part */
 
   .challenge{
@@ -183,6 +209,67 @@
     color: rgba(14, 14, 14, 0.6);
   }
 
+  /* Opinin style */
+  .opinion{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .opinion h2{
+    font-size: 40px;
+    margin-bottom: 24px;
+    align-self: flex-start;
+    margin: 0%;
+  }
+  #table-holder{
+    padding: 32px;
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    box-sizing: border-box;
+   
+  }
+  .table{
+    width: 1150px;
+  }
+  .head-row{
+    background-color: black;
+  }
+  .table, th ,td{
+    border: 1px solid  rgba(14, 14, 14, 0.2);
+    border-collapse: collapse;
+    padding: 24px;
+  }
+  .table th{
+    background-color: #C6E4D6;
+  }
+  .first-column{
+    text-align: start;
+    border-right: none;
+  }
+  .second-column{
+    border-left: none;
+    text-align: left;
+  }
+  .second-option{
+    position: relative;
+    right: 30px;
+    margin: 0%;
+  }
+  td{
+  font-weight: 600;
+  }
+  select{
+    padding: 10px 14px;
+    border-radius: 6px;
+    background-color:#C6E4D6;
+    font-weight: 600;
+
+  }
+
   /* Recent news */
   .recent-news{
     margin-top: 80px;
@@ -200,6 +287,13 @@
     padding: 48px;
     border-radius: 24px;
     background-color: white;
+  }
+  .card:hover{
+    background-color: #f5fdf7;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   
   }
   .card-img img{
     border-radius: 24px;
@@ -227,6 +321,12 @@
     font-weight: 600;
     border: none;
     color: white
+  }
+  .card-info .card-btn button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #006A50;
+    border: 1px solid #006A50;
   }
 
   #card-2{
@@ -271,6 +371,12 @@
   #amounte-2{
     background-color: #C6E4D6;
   }
+  #amounte-2:hover{
+    background-color: white;
+  }
+  .first-amount:hover{
+    background-color: #C6E4D6;
+  }
   .input-holder{
     display: flex;
     flex-direction: column;
@@ -302,7 +408,7 @@
     display: flex;
     gap: 20px;
     flex-direction: column;
-    border-radius: 24px;
+   
     border: none;
   }
   .newsletter h1{
@@ -316,6 +422,8 @@
   }
   .Subscribe{
    margin-bottom: 24px;
+   padding: 80px 100px;
+   border-radius: 24px;
   }
   .Subscribe #email{
     width: 600px;
@@ -324,6 +432,9 @@
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     
+  }
+  .Subscribe #email::placeholder{
+    padding:18px 40px ;
   }
   .Subscribe .submit{
     height: 57.2px;
@@ -338,6 +449,13 @@
     top: 2px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+  }
+  .Subscribe .submit:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-left: none;
   }
   .promise{
     color:rgba(14, 14, 14, 0.7);
